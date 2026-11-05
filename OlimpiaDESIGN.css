@@ -1,0 +1,133 @@
+nav ul {
+   	list-style: none;
+   	padding: 10px;
+   	text-align: center;
+   	background: black;
+    margin: 0;
+	}
+ 
+nav ul li {
+    	display: inline;
+    	margin: 0 15px;
+	}
+ 
+nav ul li a {
+    	text-decoration: none;
+    	color: white;
+    	font-weight: bold;
+    	padding: 10px;
+	}
+ 
+nav ul li a:hover {
+    	background: #ffd900e0;
+    	border-radius: 5px;
+	}
+
+h1 {
+	color: #ffd900e0;
+	text-align: center;
+}
+p {
+	text-align:justify;
+}
+
+a {
+	color: #ffd900e0;
+}
+
+header {
+	background-color: black;
+	color: white;
+}
+footer {
+	background-color: black;
+	color: white;
+	padding: 10px;
+}
+
+.contenedor {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  background-color: rgb(76, 76, 100);
+}
+
+
+.caja {
+  flex: 2;
+  border-width: 5px;
+  border-color: black;
+  border-radius: 2px solid black; 
+  padding: 10px;
+  margin: 5px;
+}
+
+
+.caja2 {
+  flex: 1;
+  border-style:inset ;
+  border-width: 5px;
+  border-color: black;
+  border-radius: 2px solid black; 
+  padding: 10px;
+  margin: 3px;
+}
+
+.ropa {
+	flex: 2;
+	display: flex;
+	float: right;
+}
+
+section	{
+	padding: 30px;
+	background: #6e6e6e;
+	margin: 10px auto;
+	width: 90%;
+	border-radius: 10px;
+	color: white;
+	font-style:oblique;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	}
+
+.sidebar {
+	flex: 1;
+	background-color: rgb(51, 51, 51);
+	padding: 20px;
+	border: 2px solid;
+	min-height:1000px;
+}
+
+.copas {
+	flex: 2;
+	display: flex;
+	float:none;
+}
+
+table {
+	color:white;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	background-color: darkgrey;
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 15px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.galeria img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.galeria img:hover {
+    transform: scale(1.05);
+}
